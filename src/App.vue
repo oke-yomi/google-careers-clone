@@ -1,11 +1,20 @@
 <template>
-  <h1>Baby boo</h1>
+  <main-nav />
 </template>
 
 <script>
-// New line
+import MainNav from "@/components/MainNav.vue";
+
 export default {
   name: "App",
-  components: {},
+  components: {
+    MainNav,
+  },
 };
 </script>
+
+<!-- 
+  <MainNav /> 
+
+  This is also a form of rendering the component in vue
+ -->
