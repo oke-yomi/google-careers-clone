@@ -2,8 +2,10 @@
 node_modules
 /dist
 
+# personal files
 TODO.md
 playground.js
+playground.test.js
 
 # local env files
 .env.local
