@@ -34,6 +34,7 @@ module.exports = {
         ignoreWhenBindingPresent: true,
       },
     ],
+    "vue/multi-word-component-names": "off",
   },
   overrides: [
     {
