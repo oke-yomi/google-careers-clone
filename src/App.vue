@@ -1,20 +1,19 @@
 <template>
-  <main-nav />
+  <div>
+    <main-nav />
+    <hero />
+  </div>
 </template>
 
 <script>
 import MainNav from "@/components/MainNav.vue";
+import Hero from "@/components/Hero.vue";
 
 export default {
   name: "App",
   components: {
     MainNav,
+    Hero,
   },
 };
 </script>
-
-<!-- 
-  <MainNav /> 
-
-  This is also a form of rendering the component in vue
- -->
